@@ -1,0 +1,65 @@
+
+@media (min-width:768px) {
+    .contenr {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 426px) {
+    header article .text h1 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+    header article .text p {
+        font-size: 10px;
+    }
+    header article .text .button button {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .slider .title-slider {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 426px) {
+    header article .text h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+    header article .text p {
+        font-size: 20px;
+    }
+    header article .text .button button {
+        padding: 10px 35px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .content-services .title-services {
+        font-size: 25px;
+    }
+    .content-services .text-services {
+        text-align: center;
+        padding: 10px 0 30px 0;
+        width: 100%;
+    }
+    .content-services .text-services .content-text {
+        font-size: 13px;
+    }
+    .content-services .text-services .title-text {
+        font-size: 14px;
+    }
+    .contenr .box-services {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .contenr .box-services .box .text {
+        font-size: 12px;
+    }
+    .slider .title-slider {
+        font-size: 15px;
+    }
+}
